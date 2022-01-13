@@ -1,0 +1,28 @@
+body {
+    background-color: #2A2A2A !important;
+    height: 100%;
+}
+
+
+@font-face {
+    font-family: PixelarRegular;
+    src: url("../fonts/PixelarRegularW01-Regular.ttf");
+}
+
+html {
+    height: 100%;
+}
+
+.splashpage {
+    background-image: url("../img/firstpage.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    height: 500px;
+    width: 900px;
+    background-size: contain;
+    margin-top: 100px;
+}
+
+.font-color {
+    color: #3BF800;
+}
